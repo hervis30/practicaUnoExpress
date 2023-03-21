@@ -22,7 +22,7 @@ let middSession = (username, password) => {
             nName = xFind.fullname;
             next();
         } else {
-            res.send("Usuario no existe");
+            res.send("Usuario o contraseña invalidos");
         }
     }
 }
@@ -35,7 +35,7 @@ let middPrincipal = (username, password, role) => {
             nRole = pFind.role;
             next();
         } else {
-            res.send("Usuario no existe");
+            res.send("Usuario, contraseña o rol invalidos");
         }
     }
 }
