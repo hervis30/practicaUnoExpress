@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" href="/estilosPrincipal.css">
+</head>
+
+<body>
+    <header>
+        <section>Pagina principal</section>
+        <section>Novedades</section>
+        <section>Sobre nosotros</section>
+        <section>Destinos</section>
+    </header>
+
+    <div class="container">
+        <div class="formulario">
+            <h1>Formulario</h1>
+            <form action="/login" method="get">
+                <div class="item">
+                    <label for="username">Usuario</label>
+                    <input type="text" name="username" placeholder="Ingrese usuario" required>
+                </div>
+                <div class="item">
+                    <label for="password">Contraseña</label>
+                    <input type="password" name="password" placeholder="Ingrese contraseña" required>
+                </div>
+                <div class="item">
+                    <label for="role">Role</label>
+                    <select name="role">
+                        <option value="1">Adminstrador</option>
+                        <option value="2">Usuario</option>
+                    </select>
+                </div>
+                <div class="btn">
+                    <input type="submit">
+                </div>
+
+
+            </form>
+        </div>
+        <div>
+            <h1>Estamos en la pagina <small>principal</small> </h1>
+        </div>
+
+    </div>
+</body>
+
+</html>

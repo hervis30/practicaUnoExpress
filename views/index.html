@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/estilos.css">
+</head>
+
+<body>
+    <h1>Formulario de <small>registro</small></h1>
+    <div class="container">
+        <form action="/addUsuario" method="get">
+            <div class="item">
+                <label for="username">Usuario</label>
+                <input type="text" name="username" id="" placeholder="Ingresar usuario" required>
+            </div>
+            <div class="item">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="" placeholder="Ingresar contraseña" required>
+            </div>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>
